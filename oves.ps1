@@ -38,4 +38,38 @@
 #     Write-Host "oves"-($item)- "Prashant"- "SSK"
 # }
 
+# hashtable
+# $Var = @{
+#     Name = Value
+# }
 
+# $resourceMap = @{
+#  "rg-devops-001" = "centralindia"
+#  "rg-devops-002" = "eastus"
+#  "rg-devops-003" = "westus"
+#  "rg-devops-004" = "centralindia"
+#  "rg-devops-005" = "westus"
+# }
+
+# foreach($temp in $resourceMap.GetEnumerator()) {
+#   Write-Host "Creating Resource Group $($temp.key) for a region $($temp.value)"
+
+#   az group create --location $temp.value --name $temp.key --output table
+    
+# }
+
+
+# $ssk = @{
+#     oves          = "goodboy"
+#     SatyaPrakesh  = "Badboy"
+#     sukhbirKhalsa = "ladkibaz"
+#     Prashant      = "jaat"
+# }
+
+# $ssk.containsKey("Prashant")
+# $ssk.ContainsValue("ladkibaz")
+
+
+# foreach ($value in $ssk.GetEnumerator()) {
+#     Write-Host "oves for each $($value.key) Kar raha hai $($value.value)" 
+# }
