@@ -1,5 +1,3 @@
-
-
 # $Oves = "Ovesmulla1"
 # $satya = "SatyaPrakesh"
 # $prashant = "PrashnatSharma"
@@ -53,11 +51,8 @@
 
 # foreach($temp in $resourceMap.GetEnumerator()) {
 #   Write-Host "Creating Resource Group $($temp.key) for a region $($temp.value)"
-
-#   az group create --location $temp.value --name $temp.key --output table
-    
+#   az group create --location $temp.value --name $temp.key --output table    
 # }
-
 
 # $ssk = @{
 #     oves          = "goodboy"
